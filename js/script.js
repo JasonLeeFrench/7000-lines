@@ -72,7 +72,7 @@
       if(query){
         var arr = query.split(',');
         if(arr.length > 1){
-          for(var i = 0; i < arr.length; i++){
+          for(var i = 0; i < appVariables.length; i++){
             var variable = app.getQueryVariable(+arr[i]);
             app.variables[appVariables[i]] = variable;
           }
