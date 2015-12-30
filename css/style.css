@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+}
+
+canvas {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 620px){
+  .msettings_main {
+    display: none;
+  }
+}
